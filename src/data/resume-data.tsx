@@ -80,7 +80,7 @@ export const RESUME_DATA = {
       start: "2023",
       end: "Present",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Developed and maintained web and mobile applications. Developed E-Commerce and Admin Dashboard application for B2B. Technologies:  React, TypeScript, React-Native",
     },
   ],
   skills: [
