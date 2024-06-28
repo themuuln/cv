@@ -12,7 +12,7 @@ export const RESUME_DATA = {
   location: "Ulaanbaatar, Mongolia",
   locationLink: "https://maps.app.goo.gl/qfRSUHbcTxf9aFXa7",
   about:
-    "Typescript Front-end Mobile | Web Developer focused on building products with extra attention to detail",
+    "Web, Mobile Front-end Developer (Typescript | React) focused on building products with extra attention to detail",
   summary: `Confident, skilled, and ready to excel. While I may not have extensive years of experience, I bring a fresh perspective and a passion for growth. I am highly committed to continuously enhancing my skills and expanding my knowledge in the every field especially development. Organized and dependable candidate successful at managing multiple priorities with a positive attitude. Willingness to take on added responsibilities to meet team goals. Hardworking and passionate job seeker with strong organizational skills eager to secure mid-level Front-end Developer position.`,
   avatarUrl: "https://avatars.githubusercontent.com/u/75017829?v=4",
   personalWebsiteUrl: "https://themuuln.vercel.app",
