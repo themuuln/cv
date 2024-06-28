@@ -106,6 +106,7 @@ export default function Page() {
                 <CardHeader>
                   <div className="flex items-center justify-between text-base gap-x-2">
                     <h3 className="inline-flex items-center justify-center font-semibold leading-none gap-x-1">
+                      {/* @ts-ignore */}
                       <a className="hover:underline" href={work.link}>
                         {work.company}
                       </a>
