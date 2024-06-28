@@ -1,37 +1,23 @@
+import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
   ClevertechLogo,
   ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
   MonitoLogo,
-  NSNLogo,
   ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Temuulen Undrakhbayar",
-  initials: "BJ",
+  initials: "TU",
   location: "Ulaanbaatar, Mongolia",
-  locationLink: "https://maps.app.goo.gl/1UvSyuJPkwVfdsb8A",
+  locationLink: "https://maps.app.goo.gl/qfRSUHbcTxf9aFXa7",
   about:
-    "Front-end Developer focused on building products with extra attention to detail",
-  summary:
-    "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+    "Typescript Front-end Mobile | Web Developer focused on building products with extra attention to detail",
+  summary: `Confident, skilled, and ready to excel. While I may not have extensive years of experience, I bring a fresh perspective and a passion for growth. I am highly committed to continuously enhancing my skills and expanding my knowledge in the every field especially development. Organized and dependable candidate successful at managing multiple priorities with a positive attitude. Willingness to take on added responsibilities to meet team goals. Hardworking and passionate job seeker with strong organizational skills eager to secure mid-level Front-end Developer position.`,
   avatarUrl: "https://avatars.githubusercontent.com/u/75017829?v=4",
   personalWebsiteUrl: "https://themuuln.vercel.app",
   contact: {
-    email: "themuuln.mindshift@gmail.com",
+    email: "themuuln0@gmail.com",
     tel: "+97688650115",
     social: [
       {
@@ -44,19 +30,14 @@ export const RESUME_DATA = {
         url: "https://www.linkedin.com/in/themuuln/",
         icon: LinkedInIcon,
       },
-      {
-        name: "X",
-        url: "https://x.com/themuuln",
-        icon: XIcon,
-      },
     ],
   },
   education: [
     {
-      school: "",
-      degree: "",
-      start: "",
-      end: "",
+      school: "Erdmiin Urgoo Complex",
+      degree: "High School Diploma",
+      start: "2010",
+      end: "2022",
     },
   ],
   work: [
@@ -64,41 +45,102 @@ export const RESUME_DATA = {
       company: "Mongolian National Lottery",
       link: "https://www.19000000.mn/home",
       badges: [],
-      title: "Technologist | IT professional Intern",
+      title: "IT Technician",
       logo: ParabolLogo,
-      start: "2023",
-      end: "2023",
+      start: "2022 Dec",
+      end: "2023 Mar",
       description:
-        "Managed everything related to Tech",
+        "Provided technical support during TV broadcast, Helped and taught coworkers more efficient ways of working using their computers",
     },
     {
       company: "Mindshift Technology LLC",
       link: "https://mindshift.mn/",
       badges: [],
-      title: "Front-end Web Developer → Front-end Mobile Developer",
+      title: "Front-end Web | Mobile Developer ",
+      // →
       logo: ClevertechLogo,
-      start: "2023",
+      start: "2023 Jun",
       end: "Present",
       description:
-        "Developed and maintained web and mobile applications. Developed E-Commerce and Admin Dashboard application for B2B. Technologies:  React, TypeScript, React-Native",
+        "Developed and maintained web and mobile applications on 3 different projects. Developed E-Commerce and Admin application for B2B.",
+    },
+    {
+      company: "KhanAI (Side Hustle)",
+      // link: "https://mindshift.mn/",
+      badges: ["Prompt Engineering"],
+      title: "General Manager",
+      logo: ClevertechLogo,
+      start: "2023 Sep",
+      end: "Present",
+      description:
+        "Managed and coordinated with coworkers on AI Image orders, Researched new AI tools and utilities to improve efficiency and results",
     },
   ],
   skills: [
-    "JavaScript",
+    "React",
+    "React Native",
+    "Next.js",
     "TypeScript",
-    "React/Next.js/React Native",
-    "TailwindCSS/ChakraUI",
-    "SASS/SCSS/Styled Components",
+    "TailwindCSS",
+    "SASS/SCSS",
+    "Styled Components",
     "Neovim",
     "Git",
+    "Figma",
   ],
   projects: [
     {
+      title: "Supply Platform",
+      techStack: ["Next.js", "Figma"],
+      finished: true,
+      description:
+        "Designed and Developed our company's product introduction web in just 4 days",
+      logo: ConsultlyLogo,
+      link: {
+        label: "B2B Supply",
+        href: "https://b2b-supply.vercel.app",
+      },
+    },
+    {
+      title: "Xac Shop",
+      techStack: ["Next.js", "Figma"],
+      finished: false,
+      description:
+        "Men Accessories Shopping Web with fully functional made for My Future Side Hustle",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Xac Shop",
+        href: "https://xac.vercel.app",
+      },
+    },
+    {
+      title: "Hybrid Portfolio",
+      techStack: ["Next.js", "Figma"],
+      finished: true,
+      description:
+        "Designed and Developed portfolio template for Creative Designer who can develop",
+      logo: ConsultlyLogo,
+      link: {
+        label: "PPortfolio",
+        href: "https://themuln.vercel.app",
+      },
+    },
+    {
+      title: "Zogictics",
+      techStack: ["Next.js"],
+      finished: false,
+      description:
+        "Refined system designed for cargo employees and clients to effortlessly track ordered shipments",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Zargo",
+        href: "https://cargo-three.vercel.app/",
+      },
+    },
+    {
       title: "Auto-Commiter",
-      techStack: [
-        "Side Project",
-        "YAML",
-      ],
+      techStack: ["Side Project", "YAML"],
+      finished: true,
       description: "Consistent daily commits to keep your profile look active",
       logo: ConsultlyLogo,
       link: {
@@ -108,6 +150,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Numerology",
+      finished: true,
       techStack: ["Side Project", "TypeScript", "Next.js"],
       description:
         "Calculates your core numerology numbers based on your Birthday and Cyrillic or Latin based First/Last Name.",
@@ -115,6 +158,17 @@ export const RESUME_DATA = {
       link: {
         label: "monito.dev",
         href: "https://numerology-rouge.vercel.app/",
+      },
+    },
+    {
+      title: "Dice-Roller (First Project)",
+      finished: true,
+      techStack: ["HTML", "CSS", "Javascript"],
+      description: "First Ever Project",
+      logo: MonitoLogo,
+      link: {
+        label: "monito.dev",
+        href: "https://themuuln-dice.vercel.app/",
       },
     },
   ],
