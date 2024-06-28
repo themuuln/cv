@@ -90,9 +90,20 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Private Projects",
+      techStack: ["React", "React Native"],
+      status: "In Progress",
+      description: "Not Visible for Public (+3 Projects)",
+      logo: ConsultlyLogo,
+      link: {
+        label: "",
+        href: "https://google.com",
+      },
+    },
+    {
       title: "Supply Platform",
       techStack: ["Next.js", "Figma"],
-      finished: true,
+      status: "Finished",
       description:
         "Designed and Developed our company's product introduction web in just 4 days",
       logo: ConsultlyLogo,
@@ -104,7 +115,7 @@ export const RESUME_DATA = {
     {
       title: "Xac Shop",
       techStack: ["Next.js", "Figma"],
-      finished: false,
+      status: "Paused",
       description:
         "Men Accessories Shopping Web with fully functional made for My Future Side Hustle",
       logo: ConsultlyLogo,
@@ -116,7 +127,7 @@ export const RESUME_DATA = {
     {
       title: "Hybrid Portfolio",
       techStack: ["Next.js", "Figma"],
-      finished: true,
+      status: "Finished",
       description:
         "Designed and Developed portfolio template for Creative Designer who can develop",
       logo: ConsultlyLogo,
@@ -128,7 +139,7 @@ export const RESUME_DATA = {
     {
       title: "Zogictics",
       techStack: ["Next.js"],
-      finished: false,
+      status: "Paused",
       description:
         "Refined system designed for cargo employees and clients to effortlessly track ordered shipments",
       logo: ConsultlyLogo,
@@ -140,7 +151,7 @@ export const RESUME_DATA = {
     {
       title: "Auto-Commiter",
       techStack: ["Side Project", "YAML"],
-      finished: true,
+      status: "Finished",
       description: "Consistent daily commits to keep your profile look active",
       logo: ConsultlyLogo,
       link: {
@@ -150,7 +161,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Numerology",
-      finished: true,
+      status: "Finished",
       techStack: ["Side Project", "TypeScript", "Next.js"],
       description:
         "Calculates your core numerology numbers based on your Birthday and Cyrillic or Latin based First/Last Name.",
@@ -162,7 +173,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Dice-Roller (First Project)",
-      finished: true,
+      status: "Finished",
       techStack: ["HTML", "CSS", "Javascript"],
       description: "First Ever Project",
       logo: MonitoLogo,
