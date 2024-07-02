@@ -101,6 +101,17 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Rezume",
+      techStack: ["Next.js"],
+      status: "In Progress",
+      description: "Resume Builder Web App for Made for Developers",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Rezume",
+        href: "https://rezume-build.vercel.app",
+      },
+    },
+    {
       title: "Supply Platform",
       techStack: ["Next.js", "Figma"],
       status: "Finished",
