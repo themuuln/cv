@@ -101,6 +101,17 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Zatbot",
+      techStack: ["NodeJS"],
+      status: "In Progress",
+      description: "Facebook Page Chatbot made for My Side Hustle",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Zatbot",
+        href: "https://github.com/themuuln/zatbot",
+      },
+    },
+    {
       title: "Rezume",
       techStack: ["Next.js"],
       status: "In Progress",
