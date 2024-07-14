@@ -167,7 +167,7 @@ export const RESUME_DATA = {
       logo: ConsultlyLogo,
       link: {
         label: "Zargo",
-        href: "https://cargo-three.vercel.app/",
+        href: "https://zargo.vercel.app/",
       },
     },
     {
