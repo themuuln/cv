@@ -42,6 +42,17 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Mindshift Technology LLC",
+      link: "https://mindshift.mn/",
+      badges: [],
+      title: "Front-end Web | Mobile Developer ",
+      logo: ClevertechLogo,
+      start: "2023 Jun",
+      end: "Present",
+      description:
+        "Developed and maintained web and mobile applications on 3 different projects. Developed E-Commerce and Admin application for B2B.",
+    },
+    {
       company: "Mongolian National Lottery",
       link: "https://www.19000000.mn/home",
       badges: [],
@@ -51,18 +62,6 @@ export const RESUME_DATA = {
       end: "2023 Mar",
       description:
         "Provided technical support during TV broadcast, Helped and taught coworkers more efficient ways of working using their computers",
-    },
-    {
-      company: "Mindshift Technology LLC",
-      link: "https://mindshift.mn/",
-      badges: [],
-      title: "Front-end Web | Mobile Developer ",
-      // →
-      logo: ClevertechLogo,
-      start: "2023 Jun",
-      end: "Present",
-      description:
-        "Developed and maintained web and mobile applications on 3 different projects. Developed E-Commerce and Admin application for B2B.",
     },
   ],
   skills: [
@@ -87,6 +86,18 @@ export const RESUME_DATA = {
       link: {
         label: "",
         href: "https://google.com",
+      },
+    },
+    {
+      title: "Zards - Flash Card",
+      techStack: ["Next.js", "Dictionary API"],
+      status: "In Progress",
+      description:
+        "Custom Flash card web for IELTS preparation (made for myself)",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Zards",
+        href: "https://zards.vercel.app",
       },
     },
     {
