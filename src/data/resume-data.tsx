@@ -102,13 +102,13 @@ export const RESUME_DATA = {
     },
     {
       title: "Zatbot",
-      techStack: ["NodeJS"],
+      techStack: ["Next.js"],
       status: "In Progress",
       description: "Facebook Page Chatbot made for My Side Hustle",
       logo: ConsultlyLogo,
       link: {
         label: "Zatbot",
-        href: "https://github.com/themuuln/zatbot",
+        href: "https://zatbot.vercel.app",
       },
     },
     {
@@ -159,11 +159,11 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Zogictics",
+      title: "Zargo",
       techStack: ["Next.js"],
-      status: "Paused",
+      status: "Finished",
       description:
-        "Refined system designed for cargo employees and clients to effortlessly track ordered shipments",
+        "Refined system designed for clients to effortlessly track ordered shipments",
       logo: ConsultlyLogo,
       link: {
         label: "Zargo",
