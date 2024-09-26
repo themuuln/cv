@@ -64,17 +64,6 @@ export const RESUME_DATA = {
       description:
         "Developed and maintained web and mobile applications on 3 different projects. Developed E-Commerce and Admin application for B2B.",
     },
-    {
-      company: "KhanAI (Side Hustle)",
-      // link: "https://mindshift.mn/",
-      badges: ["Prompt Engineering"],
-      title: "General Manager",
-      logo: ClevertechLogo,
-      start: "2023 Sep",
-      end: "Present",
-      description:
-        "Managed and coordinated with coworkers on AI Image orders, Researched new AI tools and utilities to improve efficiency and results",
-    },
   ],
   skills: [
     "React",
