@@ -101,6 +101,18 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Zards - Flash Card",
+      techStack: ["Next.js", "Dictionary API"],
+      status: "Finished",
+      description:
+        "Custom Flash card web for IELTS preparation (made for myself)",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Zards",
+        href: "https://zards.vercel.app",
+      },
+    },
+    {
       title: "Rezume",
       techStack: ["Next.js"],
       status: "In Progress",
@@ -144,18 +156,6 @@ export const RESUME_DATA = {
       link: {
         label: "Zargo",
         href: "https://zargo.vercel.app/",
-      },
-    },
-    {
-      title: "Zards - Flash Card",
-      techStack: ["Next.js", "Dictionary API"],
-      status: "In Progress",
-      description:
-        "Custom Flash card web for IELTS preparation (made for myself)",
-      logo: ConsultlyLogo,
-      link: {
-        label: "Zards",
-        href: "https://zards.vercel.app",
       },
     },
     {
