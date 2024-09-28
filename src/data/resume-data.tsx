@@ -85,41 +85,7 @@ export const RESUME_DATA = {
       logo: ConsultlyLogo,
       link: {
         label: "",
-        href: "https://google.com",
-      },
-    },
-    {
-      title: "Zards - Flash Card",
-      techStack: ["Next.js", "Dictionary API"],
-      status: "In Progress",
-      description:
-        "Custom Flash card web for IELTS preparation (made for myself)",
-      logo: ConsultlyLogo,
-      link: {
-        label: "Zards",
-        href: "https://zards.vercel.app",
-      },
-    },
-    {
-      title: "Zatbot",
-      techStack: ["Next.js"],
-      status: "In Progress",
-      description: "Facebook Page Chatbot made for My Side Hustle",
-      logo: ConsultlyLogo,
-      link: {
-        label: "Zatbot",
-        href: "https://zatbot.vercel.app",
-      },
-    },
-    {
-      title: "Rezume",
-      techStack: ["Next.js"],
-      status: "In Progress",
-      description: "Resume Builder Web App for Made for Developers",
-      logo: ConsultlyLogo,
-      link: {
-        label: "Rezume",
-        href: "https://rezume-build.vercel.app",
+        href: "",
       },
     },
     {
@@ -135,6 +101,16 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Rezume",
+      techStack: ["Next.js"],
+      status: "In Progress",
+      description: "Resume Builder Web App for Made for Developers",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Rezume",
+        href: "https://rezume-build.vercel.app",
+      },
+    },    {
       title: "Xac Shop",
       techStack: ["Next.js", "Figma"],
       status: "Paused",
@@ -171,38 +147,61 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Auto-Commiter",
-      techStack: ["Side Project", "YAML"],
-      status: "Finished",
-      description: "Consistent daily commits to keep your profile look active",
+      title: "Zards - Flash Card",
+      techStack: ["Next.js", "Dictionary API"],
+      status: "In Progress",
+      description:
+        "Custom Flash card web for IELTS preparation (made for myself)",
       logo: ConsultlyLogo,
       link: {
-        label: "auto-committer",
-        href: "https://github.com/themuuln/auto-committer",
+        label: "Zards",
+        href: "https://zards.vercel.app",
       },
     },
     {
-      title: "Numerology",
-      status: "Finished",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description:
-        "Calculates your core numerology numbers based on your Birthday and Cyrillic or Latin based First/Last Name.",
-      logo: MonitoLogo,
+      title: "Zatbot",
+      techStack: ["Next.js"],
+      status: "In Progress",
+      description: "Facebook Page Chatbot made for My Side Hustle",
+      logo: ConsultlyLogo,
       link: {
-        label: "monito.dev",
-        href: "https://numerology-rouge.vercel.app/",
+        label: "Zatbot",
+        href: "https://zatbot.vercel.app",
       },
     },
-    {
-      title: "Dice-Roller (First Project)",
-      status: "Finished",
-      techStack: ["HTML", "CSS", "Javascript"],
-      description: "First Ever Project",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://themuuln-dice.vercel.app/",
-      },
-    },
+    // {
+    //   title: "Auto-Commiter",
+    //   techStack: ["Side Project", "YAML"],
+    //   status: "Finished",
+    //   description: "Consistent daily commits to keep your profile look active",
+    //   logo: ConsultlyLogo,
+    //   link: {
+    //     label: "auto-committer",
+    //     href: "https://github.com/themuuln/auto-committer",
+    //   },
+    // },
+    // {
+    //   title: "Numerology",
+    //   status: "Finished",
+    //   techStack: ["Side Project", "TypeScript", "Next.js"],
+    //   description:
+    //     "Calculates your core numerology numbers based on your Birthday and Cyrillic or Latin based First/Last Name.",
+    //   logo: MonitoLogo,
+    //   link: {
+    //     label: "monito.dev",
+    //     href: "https://numerology-rouge.vercel.app/",
+    //   },
+    // },
+    // {
+    //   title: "Dice-Roller (First Project)",
+    //   status: "Finished",
+    //   techStack: ["HTML", "CSS", "Javascript"],
+    //   description: "First Ever Project",
+    //   logo: MonitoLogo,
+    //   link: {
+    //     label: "monito.dev",
+    //     href: "https://themuuln-dice.vercel.app/",
+    //   },
+    // },
   ],
 } as const;
