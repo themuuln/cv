@@ -68,13 +68,17 @@ export const RESUME_DATA = {
     "React",
     "React Native",
     "Next.js",
+    "Javascript",
     "TypeScript",
+    "HTML",
+    "CSS",
     "TailwindCSS",
     "SASS/SCSS",
     "Styled Components",
     "Neovim",
     "Git",
     "Figma",
+    "PostgreSQL"
   ],
   projects: [
     {
@@ -95,7 +99,7 @@ export const RESUME_DATA = {
       description:
         "Designed and Developed our company's product introduction web in just 4 days",
       logo: ConsultlyLogo,
-      link: {
+      link: k{
         label: "B2B Supply",
         href: "https://b2b-supply.vercel.app",
       },
