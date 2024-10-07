@@ -78,7 +78,7 @@ export const RESUME_DATA = {
     "Neovim",
     "Git",
     "Figma",
-    "PostgreSQL"
+    "PostgreSQL",
   ],
   projects: [
     {
@@ -99,9 +99,20 @@ export const RESUME_DATA = {
       description:
         "Designed and Developed our company's product introduction web in just 4 days",
       logo: ConsultlyLogo,
-      link: k{
+      link: {
         label: "B2B Supply",
         href: "https://b2b-supply.vercel.app",
+      },
+    },
+    {
+      title: "Tardy - Working Time Tracker",
+      techStack: ["Next.js"],
+      status: "Finished",
+      description: "Working Time Tracker Web App for Personal use",
+      logo: ConsultlyLogo,
+      link: {
+        label: "Tardy",
+        href: "https://tardy.vercel.app",
       },
     },
     {
@@ -126,7 +137,8 @@ export const RESUME_DATA = {
         label: "Rezume",
         href: "https://rezume-build.vercel.app",
       },
-    },    {
+    },
+    {
       title: "Xac Shop",
       techStack: ["Next.js", "Figma"],
       status: "Paused",
