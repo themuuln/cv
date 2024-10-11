@@ -127,64 +127,64 @@ export const RESUME_DATA = {
         href: "https://zards.vercel.app",
       },
     },
-    {
-      title: "Rezume",
-      techStack: ["Next.js"],
-      status: "In Progress",
-      description: "Resume Builder Web App for Made for Developers",
-      logo: ConsultlyLogo,
-      link: {
-        label: "Rezume",
-        href: "https://rezume-build.vercel.app",
-      },
-    },
-    {
-      title: "Xac Shop",
-      techStack: ["Next.js", "Figma"],
-      status: "Paused",
-      description:
-        "Men Accessories Shopping Web with fully functional made for My Future Side Hustle",
-      logo: ConsultlyLogo,
-      link: {
-        label: "Xac Shop",
-        href: "https://xac.vercel.app",
-      },
-    },
-    {
-      title: "Hybrid Portfolio",
-      techStack: ["Next.js", "Figma"],
-      status: "Finished",
-      description:
-        "Designed and Developed portfolio template for Creative Designer who can develop",
-      logo: ConsultlyLogo,
-      link: {
-        label: "PPortfolio",
-        href: "https://themuln.vercel.app",
-      },
-    },
-    {
-      title: "Zargo",
-      techStack: ["Next.js"],
-      status: "Finished",
-      description:
-        "Refined system designed for clients to effortlessly track ordered shipments",
-      logo: ConsultlyLogo,
-      link: {
-        label: "Zargo",
-        href: "https://zargo.vercel.app/",
-      },
-    },
-    {
-      title: "Zatbot",
-      techStack: ["Next.js"],
-      status: "In Progress",
-      description: "Facebook Page Chatbot made for My Side Hustle",
-      logo: ConsultlyLogo,
-      link: {
-        label: "Zatbot",
-        href: "https://zatbot.vercel.app",
-      },
-    },
+    // {
+    //   title: "Rezume",
+    //   techStack: ["Next.js"],
+    //   status: "In Progress",
+    //   description: "Resume Builder Web App for Made for Developers",
+    //   logo: ConsultlyLogo,
+    //   link: {
+    //     label: "Rezume",
+    //     href: "https://rezume-build.vercel.app",
+    //   },
+    // },
+    // {
+    //   title: "Xac Shop",
+    //   techStack: ["Next.js", "Figma"],
+    //   status: "Paused",
+    //   description:
+    //     "Men Accessories Shopping Web with fully functional made for My Future Side Hustle",
+    //   logo: ConsultlyLogo,
+    //   link: {
+    //     label: "Xac Shop",
+    //     href: "https://xac.vercel.app",
+    //   },
+    // },
+    // {
+    //   title: "Hybrid Portfolio",
+    //   techStack: ["Next.js", "Figma"],
+    //   status: "Finished",
+    //   description:
+    //     "Designed and Developed portfolio template for Creative Designer who can develop",
+    //   logo: ConsultlyLogo,
+    //   link: {
+    //     label: "PPortfolio",
+    //     href: "https://themuln.vercel.app",
+    //   },
+    // },
+    // {
+    //   title: "Zargo",
+    //   techStack: ["Next.js"],
+    //   status: "Finished",
+    //   description:
+    //     "Refined system designed for clients to effortlessly track ordered shipments",
+    //   logo: ConsultlyLogo,
+    //   link: {
+    //     label: "Zargo",
+    //     href: "https://zargo.vercel.app/",
+    //   },
+    // },
+    // {
+    //   title: "Zatbot",
+    //   techStack: ["Next.js"],
+    //   status: "In Progress",
+    //   description: "Facebook Page Chatbot made for My Side Hustle",
+    //   logo: ConsultlyLogo,
+    //   link: {
+    //     label: "Zatbot",
+    //     href: "https://zatbot.vercel.app",
+    //   },
+    // },
     // {
     //   title: "Auto-Commiter",
     //   techStack: ["Side Project", "YAML"],
